@@ -1,0 +1,5 @@
+docker run --name=ubuntu-web -p 6080:80 -p 5901:5901 \
+-p 5902:5902 -p 8080:8080 -p 55000:22 -p 60443:443 -p 6020:20 \
+-p 6021:21 -p 3306:3306 -p 33060:33060 -d ubuntu-web 
+docker exec -it --privileged ubuntu-web bash
+
