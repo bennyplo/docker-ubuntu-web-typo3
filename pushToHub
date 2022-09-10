@@ -1,0 +1,3 @@
+#You need to commit the container first:
+#docker container commit DOCKER_ID bennyplo1218/ubuntu-web-typo3:latest
+docker image push bennyplo1218/ubuntu-web-typo3:latest
