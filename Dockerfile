@@ -1,4 +1,14 @@
-FROM bennyplo1218/ubuntu-desktop-mac-m1:latest
+##########################################################################
+# Docker file for creating an ubuntu desktop with LAMP,typo3,and media wiki
+#
+# by Benny Lo
+##########################################################################
+#If it is for a computer with an ARM processor:
+#FROM bennyplo1218/ubuntu-desktop-mac-m1:latest
+#########################################
+#If it is for a computer with an intel processor use the following:
+FROM bennyplo1218/ubuntu-desktop-intel:latest
+#########################################
 LABEL maintainer "bennyplo@gmail.com"
 
 ENV DEBIAN_FRONTEND noninteractive
